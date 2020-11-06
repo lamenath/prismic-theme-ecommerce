@@ -1,0 +1,102 @@
+{
+    "Header": {
+        "header": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "title": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "heading5",
+                            "label": "Title",
+                            "placeholder": "Title here"
+                        }
+                    },
+                    "link": {
+                        "type": "Link",
+                        "config": {
+                            "select": "document",
+                            "label": "Link",
+                            "placeholder": "Link to page"
+                        }
+                    }
+                },
+                "label": "Header elements"
+            }
+        }
+    },
+    "Footer": {
+        "footer_links": {
+            "type": "Group",
+            "config": {
+                "fields": {
+                    "link_label": {
+                        "type": "StructuredText",
+                        "config": {
+                            "single": "paragraph",
+                            "label": "Link Label",
+                            "placeholder": "Link Label..."
+                        }
+                    },
+                    "link": {
+                        "type": "Link",
+                        "config": {
+                            "label": "Link"
+                        }
+                    }
+                },
+                "label": "Footer Links"
+            }
+        },
+        "footer_icon": {
+            "type": "Image",
+            "config": {
+                "constraint": {
+                    "width": 25,
+                    "height": 25
+                },
+                "thumbnails": null,
+                "label": "Footer Icon"
+            }
+        },
+        "footer_text": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph, strong, em",
+                "label": "Footer Text",
+                "placeholder": "Enter footer text..."
+            }
+        }
+    },
+    "Logo": {
+        "logo": {
+            "type": "Image",
+            "config": {
+                "constraint": {},
+                "thumbnails": null,
+                "label": "logo"
+            }
+        },
+        "tag_line": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph, heading5, em",
+                "label": "Tag line",
+                "placeholder": "if any"
+            }
+        }
+    },
+    "Banner": {
+        "banner": {
+            "type": "Link",
+            "config": {
+                "select": "document",
+                "customtypes": [
+                    "banner"
+                ],
+                "label": "banner",
+                "placeholder": "Link to any banner of the moment (Covid, new features, announcements etc.)"
+            }
+        }
+    }
+}

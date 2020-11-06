@@ -1,0 +1,20 @@
+[
+    {
+        "id": "homepage",
+        "name": "Homepage",
+        "repeatable": false,
+        "value": "ecommerce_homepage.json"
+    },
+    {
+        "id": "navigation",
+        "name": "Navigation",
+        "repeatable": false,
+        "value": "ecommerce_navigation.json"
+    },
+    {
+        "id": "product",
+        "name": "Product",
+        "repeatable": true,
+        "value": "ecommerce_product-page.json"
+    }
+]
