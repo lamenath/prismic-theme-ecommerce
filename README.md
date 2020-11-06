@@ -1,9 +1,18 @@
-# Sample set of Prismic Custom Types for a Ecommerce site
+# Sample set of Prismic custom types for a Ecommerce site
 
-You can create a new repo with these custom types configured by using the `prismic-theme` command with the Prismic CLI: 
+You can create a new Prismic repo using these set of custom types with the `prismic-theme` command of the Prismic CLI: 
 
-```npm install prismic-cli```
-```prismic theme https://github.com/lamenath/prismic-theme-ecommerce```
+Make sure you have the Prismic CLI installed:
+
+```shell
+npm install prismic-cli
+```
+
+Launch the theme command
+
+```shell
+prismic theme https://github.com/lamenath/prismic-theme-ecommerce
+```
 
 Get a guided tour for each type included in this theme:
 
