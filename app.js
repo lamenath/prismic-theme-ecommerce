@@ -1,1 +1,0 @@
-console.log("Nothing to see here, this theme only includes content types for your inspiration.")
